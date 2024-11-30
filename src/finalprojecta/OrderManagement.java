@@ -5,12 +5,10 @@ import java.util.LinkedList;
 public class OrderManagement {
     private LinkedList<Order> orders;
 
-    // Constructor
     public OrderManagement() {
         orders = new LinkedList<>();
     }
 
-    // Methods to manage orders
     public void createOrder(Order order) {
         orders.add(order);
     }
